@@ -1,0 +1,30 @@
+.custom-search {
+  position: relative;
+  margin: 0 16px 0 0;
+
+  &__field {
+    width: 260px;
+    padding: 4px 34px 4px 12px;
+    border-radius: 6px;
+    border: 1px solid $color-input-border;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+
+    &::placeholder {
+        color: $color-placeholder;
+    }
+  }
+
+  &__icon-search {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    color: $color-input-icon;
+  }
+}

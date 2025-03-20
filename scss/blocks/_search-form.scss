@@ -1,0 +1,42 @@
+.search-form {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background-color: $color-bg-form;
+
+  &__group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid $color-btn-blue-80;
+    color: $color-btn-blue;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+
+    &-icon {
+      width: 10px;
+      height: 10px;
+    }
+
+    &-text {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      white-space: nowrap;
+    }
+  }
+}
